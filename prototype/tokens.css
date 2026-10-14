@@ -1,0 +1,80 @@
+/* Good Company Design System v0.1 — experiment tokens.
+   Names map to Figma variables by replacing "/" with "-".
+   This file is the only place visual values are defined. */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("fonts/Fraunces-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Primitives — sampled from the reference screenshots */
+  --color-purple-900: #312549;
+  --color-purple-500: #7c56be;
+  --color-lavender-100: #ece5fc;
+  --color-lavender-50: #f7f5fd;
+  --color-mint-100: #ddefee;
+  --color-mint-300: #b4e5d5;
+  --color-peach-300: #f5ceb0;
+  --color-blue-300: #afd8f6;
+  --color-neutral-0: #fbfbfe;
+  --color-neutral-500: #656071;
+  --color-neutral-400: #8888a2;
+
+  /* Semantic — aliases of the primitives above */
+  --color-bg-canvas: var(--color-lavender-50);
+  --color-bg-wash-start: var(--color-lavender-100);
+  --color-bg-wash-end: var(--color-mint-100);
+  --color-bg-surface: var(--color-neutral-0);
+  --color-text-primary: var(--color-purple-900);
+  --color-text-secondary: var(--color-neutral-500);
+  --color-text-inverse: var(--color-lavender-50);
+  --color-action-primary: var(--color-purple-900);
+  --color-action-disabled: var(--color-neutral-400);
+  --color-action-secondary: var(--color-purple-900);
+  --color-accent: var(--color-purple-500);
+  --color-mood-good: var(--color-mint-300);
+  --color-mood-soso: var(--color-peach-300);
+  --color-mood-low: var(--color-blue-300);
+  --color-border-selected: var(--color-purple-500);
+
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+
+  --radius-card: 28px;
+  --radius-pill: 999px;
+
+  --type-display-size: 44px;
+  --type-heading-size: 44px;
+  --type-body-size: 18px;
+  --type-label-size: 16px;
+
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+  --font-body: "Nunito Sans", "Avenir Next", "Segoe UI", sans-serif;
+
+  /* Not a Figma variable. Card shadow is an effect style. Approximated. */
+  --shadow-card: 0 10px 24px rgba(49, 37, 73, 0.08);
+}
