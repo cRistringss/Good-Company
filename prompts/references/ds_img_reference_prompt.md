@@ -2,7 +2,7 @@
 
 > Reusable design-system implementation prompt for the Good Company repository.
 
-## How to run
+## How to run this file
 
 Work with the existing Good Company repository. The agent should read the project instructions and reference images automatically. Do not paste an absolute local path or create a new repository. Run the **Agent prompt** below. If Figma cannot create a new design file, provide an empty Figma Design file URL when requested.
 
